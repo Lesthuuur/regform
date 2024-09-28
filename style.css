@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  max-width: 350px;
+  max-width: 500px;
   background-color: #fff;
   padding: 20px;
   border-radius: 20px;
@@ -26,54 +26,31 @@ body {
   align-items: center;
 }
 
-.message,
-.signin {
-  color: rgba(88, 87, 87, 0.822);
-  font-size: 14px;
-}
 
-.signin {
-  text-align: center;
-}
-
-.signin a {
-  color: royalblue;
-}
-
-.signin a:hover {
-  text-decoration: underline royalblue;
-}
 
 .flex {
   display: flex;
   width: 100%;
-  gap: 6px;
+  gap: 1rem;
 }
 
 .form label {
-  position: relative;
+ 
 }
 
-.form label .input {
+.form label input {
   width: 100%;
   padding: 10px 10px 20px 10px;
-  outline: 0;
+
   border: 1px solid rgba(105, 105, 105, 0.397);
   border-radius: 10px;
 }
 
-.form label .input + span {
-  position: absolute;
-  left: 10px;
-  top: 15px;
-  color: grey;
-  font-size: 0.9em;
-  cursor: text;
-  transition: 0.3s ease;
+.name {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
 }
-
-
-
 
 .submit {
   border: none;
